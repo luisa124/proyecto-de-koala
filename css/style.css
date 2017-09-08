@@ -1,3 +1,65 @@
+.contenedor {
+    background-image: url(../img/portada.jpg);
+    width: 100%;
+    height: 700px;
+}
+nav .container-fluid{
+    flex-direction: row;
+}
+nav ul li a {
+    text-decoration: none;
+}
+
+header {
+    position: relative;
+    padding-top: 84px;
+    padding-bottom: 80px;
+}
+
+header nav {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    height: 70px;
+    background-color: #fff;
+}
+
+header nav ul {
+    line-height: 70px;
+    text-align: right;
+    padding-right: 80px;
+}
+
+nav ul li a{
+    text-transform: uppercase;
+    color: #000;
+}
+
+header nav h1{
+    margin: 10px;
+    margin-left: 30px;
+    line-height: 70px;
+}
+
+header .action img{
+    width: 80px;
+    margin: 15px 0px;
+}
+header .action h1 {
+    text-size: 2em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.action .btn {
+    margin-top: 15px;
+    text-transform: uppercase;
+}
+
+
+
+/* imagenes y parrafos des */
 /*
 wood brown: A89F68;
 army green: 41521F;
